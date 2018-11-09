@@ -2,7 +2,7 @@
 Capture your key events anywhere in macOSX
 
 
-<img src="/script.png?raw=true" alt="script" title="script" align="center" height="500" />
+<img src="KeyLogger/script.png?raw=true" alt="" title="script" align="center" />
 
 ### Apple script to enable the GUI Scripting
 
@@ -21,7 +21,7 @@ end if
 return "yes"
 end enable_GUI_scripting
 ```
-To Manually enable the settings:
+To Manually enable the settings: Go to settings-> Accessibility-> enable Xcode
 
-<img src="/settings.png?raw=true" alt="script" title="script" align="center" height="500" />
+<img src="KeyLogger/settings.png?raw=true" alt="" title="settings" align="center" />
 
