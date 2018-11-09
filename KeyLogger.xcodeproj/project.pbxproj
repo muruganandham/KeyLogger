@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2605B5ED21955E2200D8A519 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2605B5EC21955E2200D8A519 /* AppDelegate.m */; };
+		2605B5F021955E2200D8A519 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2605B5EF21955E2200D8A519 /* ViewController.m */; };
+		2605B5F221955E2300D8A519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2605B5F121955E2300D8A519 /* Assets.xcassets */; };
+		2605B5F521955E2300D8A519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2605B5F321955E2300D8A519 /* Main.storyboard */; };
+		2605B5F821955E2300D8A519 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2605B5F721955E2300D8A519 /* main.m */; };
+		2605B60321955E2400D8A519 /* KeyLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2605B60221955E2400D8A519 /* KeyLoggerTests.m */; };
+		2605B60E21955E2400D8A519 /* KeyLoggerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2605B60D21955E2400D8A519 /* KeyLoggerUITests.m */; };
+		2605B61D21955F6100D8A519 /* setAccesForAssistiveDevice.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2605B61B21955F6100D8A519 /* setAccesForAssistiveDevice.scpt */; };
+		2605B61E21955F6100D8A519 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 2605B61C21955F6100D8A519 /* red.png */; };
+		2605B6212195699400D8A519 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 2605B61F2195699400D8A519 /* settings.png */; };
+		2605B6222195699400D8A519 /* script.png in Resources */ = {isa = PBXBuildFile; fileRef = 2605B6202195699400D8A519 /* script.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2605B5FF21955E2400D8A519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2605B5E021955E2200D8A519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2605B5E721955E2200D8A519;
+			remoteInfo = KeyLogger;
+		};
+		2605B60A21955E2400D8A519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2605B5E021955E2200D8A519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2605B5E721955E2200D8A519;
+			remoteInfo = KeyLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2605B5E821955E2200D8A519 /* KeyLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2605B5EB21955E2200D8A519 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2605B5EC21955E2200D8A519 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2605B5EE21955E2200D8A519 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2605B5EF21955E2200D8A519 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2605B5F121955E2300D8A519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2605B5F421955E2300D8A519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2605B5F621955E2300D8A519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2605B5F721955E2300D8A519 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2605B5F921955E2300D8A519 /* KeyLogger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeyLogger.entitlements; sourceTree = "<group>"; };
+		2605B5FE21955E2400D8A519 /* KeyLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2605B60221955E2400D8A519 /* KeyLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyLoggerTests.m; sourceTree = "<group>"; };
+		2605B60421955E2400D8A519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2605B60921955E2400D8A519 /* KeyLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2605B60D21955E2400D8A519 /* KeyLoggerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyLoggerUITests.m; sourceTree = "<group>"; };
+		2605B60F21955E2400D8A519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2605B61B21955F6100D8A519 /* setAccesForAssistiveDevice.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = setAccesForAssistiveDevice.scpt; sourceTree = "<group>"; };
+		2605B61C21955F6100D8A519 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		2605B61F2195699400D8A519 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		2605B6202195699400D8A519 /* script.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = script.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2605B5E521955E2200D8A519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2605B5FB21955E2400D8A519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2605B60621955E2400D8A519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2605B5DF21955E2200D8A519 = {
+			isa = PBXGroup;
+			children = (
+				2605B5EA21955E2200D8A519 /* KeyLogger */,
+				2605B60121955E2400D8A519 /* KeyLoggerTests */,
+				2605B60C21955E2400D8A519 /* KeyLoggerUITests */,
+				2605B5E921955E2200D8A519 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2605B5E921955E2200D8A519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2605B5E821955E2200D8A519 /* KeyLogger.app */,
+				2605B5FE21955E2400D8A519 /* KeyLoggerTests.xctest */,
+				2605B60921955E2400D8A519 /* KeyLoggerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2605B5EA21955E2200D8A519 /* KeyLogger */ = {
+			isa = PBXGroup;
+			children = (
+				2605B5EB21955E2200D8A519 /* AppDelegate.h */,
+				2605B5EC21955E2200D8A519 /* AppDelegate.m */,
+				2605B5EE21955E2200D8A519 /* ViewController.h */,
+				2605B5EF21955E2200D8A519 /* ViewController.m */,
+				2605B5F121955E2300D8A519 /* Assets.xcassets */,
+				2605B6202195699400D8A519 /* script.png */,
+				2605B61F2195699400D8A519 /* settings.png */,
+				2605B61C21955F6100D8A519 /* red.png */,
+				2605B61B21955F6100D8A519 /* setAccesForAssistiveDevice.scpt */,
+				2605B5F321955E2300D8A519 /* Main.storyboard */,
+				2605B5F621955E2300D8A519 /* Info.plist */,
+				2605B5F721955E2300D8A519 /* main.m */,
+				2605B5F921955E2300D8A519 /* KeyLogger.entitlements */,
+			);
+			path = KeyLogger;
+			sourceTree = "<group>";
+		};
+		2605B60121955E2400D8A519 /* KeyLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2605B60221955E2400D8A519 /* KeyLoggerTests.m */,
+				2605B60421955E2400D8A519 /* Info.plist */,
+			);
+			path = KeyLoggerTests;
+			sourceTree = "<group>";
+		};
+		2605B60C21955E2400D8A519 /* KeyLoggerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2605B60D21955E2400D8A519 /* KeyLoggerUITests.m */,
+				2605B60F21955E2400D8A519 /* Info.plist */,
+			);
+			path = KeyLoggerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2605B5E721955E2200D8A519 /* KeyLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2605B61221955E2400D8A519 /* Build configuration list for PBXNativeTarget "KeyLogger" */;
+			buildPhases = (
+				2605B5E421955E2200D8A519 /* Sources */,
+				2605B5E521955E2200D8A519 /* Frameworks */,
+				2605B5E621955E2200D8A519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyLogger;
+			productName = KeyLogger;
+			productReference = 2605B5E821955E2200D8A519 /* KeyLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2605B5FD21955E2400D8A519 /* KeyLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2605B61521955E2400D8A519 /* Build configuration list for PBXNativeTarget "KeyLoggerTests" */;
+			buildPhases = (
+				2605B5FA21955E2400D8A519 /* Sources */,
+				2605B5FB21955E2400D8A519 /* Frameworks */,
+				2605B5FC21955E2400D8A519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2605B60021955E2400D8A519 /* PBXTargetDependency */,
+			);
+			name = KeyLoggerTests;
+			productName = KeyLoggerTests;
+			productReference = 2605B5FE21955E2400D8A519 /* KeyLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2605B60821955E2400D8A519 /* KeyLoggerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2605B61821955E2400D8A519 /* Build configuration list for PBXNativeTarget "KeyLoggerUITests" */;
+			buildPhases = (
+				2605B60521955E2400D8A519 /* Sources */,
+				2605B60621955E2400D8A519 /* Frameworks */,
+				2605B60721955E2400D8A519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2605B60B21955E2400D8A519 /* PBXTargetDependency */,
+			);
+			name = KeyLoggerUITests;
+			productName = KeyLoggerUITests;
+			productReference = 2605B60921955E2400D8A519 /* KeyLoggerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2605B5E021955E2200D8A519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Muruganandham.Kuppan;
+				TargetAttributes = {
+					2605B5E721955E2200D8A519 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					2605B5FD21955E2400D8A519 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2605B5E721955E2200D8A519;
+					};
+					2605B60821955E2400D8A519 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2605B5E721955E2200D8A519;
+					};
+				};
+			};
+			buildConfigurationList = 2605B5E321955E2200D8A519 /* Build configuration list for PBXProject "KeyLogger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2605B5DF21955E2200D8A519;
+			productRefGroup = 2605B5E921955E2200D8A519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2605B5E721955E2200D8A519 /* KeyLogger */,
+				2605B5FD21955E2400D8A519 /* KeyLoggerTests */,
+				2605B60821955E2400D8A519 /* KeyLoggerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2605B5E621955E2200D8A519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2605B6222195699400D8A519 /* script.png in Resources */,
+				2605B5F221955E2300D8A519 /* Assets.xcassets in Resources */,
+				2605B6212195699400D8A519 /* settings.png in Resources */,
+				2605B61E21955F6100D8A519 /* red.png in Resources */,
+				2605B5F521955E2300D8A519 /* Main.storyboard in Resources */,
+				2605B61D21955F6100D8A519 /* setAccesForAssistiveDevice.scpt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2605B5FC21955E2400D8A519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2605B60721955E2400D8A519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2605B5E421955E2200D8A519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2605B5F021955E2200D8A519 /* ViewController.m in Sources */,
+				2605B5F821955E2300D8A519 /* main.m in Sources */,
+				2605B5ED21955E2200D8A519 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2605B5FA21955E2400D8A519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2605B60321955E2400D8A519 /* KeyLoggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2605B60521955E2400D8A519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2605B60E21955E2400D8A519 /* KeyLoggerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2605B60021955E2400D8A519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2605B5E721955E2200D8A519 /* KeyLogger */;
+			targetProxy = 2605B5FF21955E2400D8A519 /* PBXContainerItemProxy */;
+		};
+		2605B60B21955E2400D8A519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2605B5E721955E2200D8A519 /* KeyLogger */;
+			targetProxy = 2605B60A21955E2400D8A519 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2605B5F321955E2300D8A519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2605B5F421955E2300D8A519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2605B61021955E2400D8A519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2605B61121955E2400D8A519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2605B61321955E2400D8A519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyLogger/KeyLogger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9A3XYQH875;
+				INFOPLIST_FILE = KeyLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muru.KeyLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2605B61421955E2400D8A519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyLogger/KeyLogger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9A3XYQH875;
+				INFOPLIST_FILE = KeyLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muru.KeyLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2605B61621955E2400D8A519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9A3XYQH875;
+				INFOPLIST_FILE = KeyLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muru.KeyLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyLogger.app/Contents/MacOS/KeyLogger";
+			};
+			name = Debug;
+		};
+		2605B61721955E2400D8A519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9A3XYQH875;
+				INFOPLIST_FILE = KeyLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muru.KeyLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyLogger.app/Contents/MacOS/KeyLogger";
+			};
+			name = Release;
+		};
+		2605B61921955E2400D8A519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9A3XYQH875;
+				INFOPLIST_FILE = KeyLoggerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muru.KeyLoggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyLogger;
+			};
+			name = Debug;
+		};
+		2605B61A21955E2400D8A519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9A3XYQH875;
+				INFOPLIST_FILE = KeyLoggerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muru.KeyLoggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyLogger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2605B5E321955E2200D8A519 /* Build configuration list for PBXProject "KeyLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2605B61021955E2400D8A519 /* Debug */,
+				2605B61121955E2400D8A519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2605B61221955E2400D8A519 /* Build configuration list for PBXNativeTarget "KeyLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2605B61321955E2400D8A519 /* Debug */,
+				2605B61421955E2400D8A519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2605B61521955E2400D8A519 /* Build configuration list for PBXNativeTarget "KeyLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2605B61621955E2400D8A519 /* Debug */,
+				2605B61721955E2400D8A519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2605B61821955E2400D8A519 /* Build configuration list for PBXNativeTarget "KeyLoggerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2605B61921955E2400D8A519 /* Debug */,
+				2605B61A21955E2400D8A519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2605B5E021955E2200D8A519 /* Project object */;
+}
