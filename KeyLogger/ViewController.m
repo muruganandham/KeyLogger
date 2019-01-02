@@ -35,14 +35,8 @@
     
     NSString *theResult = [theDescriptor stringValue];
     NSLog(@"re: %@",theResult);
-//    if([theResult isEqualToString:@"yes"])
-//    {
-//        [self capture];
-//    }
-//    else
-//    {
-//        [NSApp terminate:self];
-//    }
+
+//if yes start capture
     [self capture];
 }
 
