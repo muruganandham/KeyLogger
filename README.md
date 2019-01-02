@@ -1,5 +1,5 @@
 # KeyLogger
-Capture your key events anywhere in macOSX
+Capture your key events anywhere in macOSX. This project is availble to use educational and trainging purposes.
 
 
 <img src="KeyLogger/script.png?raw=true" alt="" title="script" align="center" />
@@ -24,6 +24,3 @@ end enable_GUI_scripting
 To Manually enable the settings: Go to settings-> Accessibility-> enable Xcode
 
 <img src="KeyLogger/settings.png?raw=true" alt="" title="settings" align="center" />
-
-Free to use
-
