@@ -25,3 +25,5 @@ To Manually enable the settings: Go to settings-> Accessibility-> enable Xcode
 
 <img src="KeyLogger/settings.png?raw=true" alt="" title="settings" align="center" />
 
+Free to use
+
